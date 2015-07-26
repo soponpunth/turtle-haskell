@@ -1,0 +1,23 @@
+Question : What definition of time do you use (what can a turtle achieve in a single time unit)?
+Answer : We use Action as a time unit to represent definition of time. Program can have a list of action,
+		 when Turtle performs 1 action is equal to a 1 single time unit
+
+Questions : What happens after a parallel composition finishes? Is your parallel composition commutative, is it associative? (To answer this question you must first define what it means for programs to be equal.) What happens if a turtle runs forever only turning left in parallel with another turtle running the spiral example? Does your textual interface handle this situation correctly, if not - how would you fix it?
+Answer : 
+
+Question : How does parallel composition interact with lifespan and limited? (lifespan does not need to correspond realistically to actual life spans, just specify how it works.)
+Answer : limited can be useful for a turtle program that is defined in term of infinite sequence of actions or large sequence of 		     actions . lifespan is similar to limited but it will kill turtle after limited becomes 0 and that turtle cannot run 
+		 anymore actions.
+		 For Example, consider 2 turtles (A and B), Turtle A and Turtle B has the same infinite sequence of actions, but Turtle A contants lifespan action in it meanwhile turtle B has limited action. So Turtle A will die at somepoint and will not draw anything further. But Turtle B is still drawing.
+
+Question : Did you use a shallow or a deep embedding, or a combination? Why? Discuss in a detailed manner how you would have implemented the Program type if you had chosen the other approach. What would have been easier/more difficult?
+Answer : 
+
+Question : Compare the usability of your embedding against a custom-made implementation of a turtle language with dedicated syntax and interpreters. How easy is it to write programs in your embedded language compared to a dedicated language? What are the advantages and disadvantages of your embedding?
+Answer : 
+
+Question : Compare the ease of implementation of your embedding against a custom-made implementation. How easy was it to implement the language and extensions in your embedded language compared to a dedicated language? What are the advantages/disadvantages of your embedding?
+Answer : 
+
+Question : In what way have you used the following programming language features: higher-order functions, laziness, polymorphism?
+Answer : 
